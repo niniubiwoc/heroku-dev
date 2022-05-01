@@ -3,6 +3,7 @@ name: selenium
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 jobs:
   build1:
     runs-on: ubuntu-latest

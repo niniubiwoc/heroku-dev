@@ -26,7 +26,7 @@ options.add_argument('--disable-dev-shm-usage')
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-lists = "ga3rehtesqgeafgeqav"
+lists = "arwheaesrgbhaezrhawrgad"
 
 def getmidstring(html, start_str, end):
     start = html.find(start_str)

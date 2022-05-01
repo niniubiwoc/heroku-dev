@@ -26,7 +26,7 @@ options.add_argument('--disable-dev-shm-usage')
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-lists = "htsbrhaesahesbgaesd"
+lists = "agwraehstbaehbtagzg"
 
 def getmidstring(html, start_str, end):
     start = html.find(start_str)
@@ -46,11 +46,9 @@ def pregetmidstring(pre, html, start_str, end):
 
 if __name__ == '__main__':
     sum = 0
-    with open('account.txt', 'a') as f1:
-        f1.write("\n#Start")
     while True:
         browser = webdriver.Chrome(executable_path=chromedriver, chrome_options=options)
-        if sum >= 20:
+        if sum >= 10:
             break
         try:
             username = ''.join(random.sample(string.ascii_letters, 10)).lower()

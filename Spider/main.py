@@ -26,7 +26,7 @@ options.add_argument('--disable-dev-shm-usage')
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-lists = "ag5srthestgaeshaergawg"
+lists = "htsbrhaesahesbgaesd"
 
 def getmidstring(html, start_str, end):
     start = html.find(start_str)
@@ -50,7 +50,7 @@ if __name__ == '__main__':
         f1.write("\n#Start")
     while True:
         browser = webdriver.Chrome(executable_path=chromedriver, chrome_options=options)
-        if sum >= 40:
+        if sum >= 20:
             break
         try:
             username = ''.join(random.sample(string.ascii_letters, 10)).lower()

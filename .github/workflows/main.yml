@@ -1,0 +1,423 @@
+name: selenium
+
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build1:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build3:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build4:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build5:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build6:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build7:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build8:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build9:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build10:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+  build11:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build12:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build13:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build14:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build15:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build16:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build17:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build18:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build19:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py
+
+
+  build20:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: 'Set up Python'
+        uses: actions/setup-python@v1
+        timeout-minutes: 30
+        with:
+           python-version: 3.7
+      - name: 'Install requirements'
+        run: pip install -r ./Spider/requirements.txt
+      - name: 'Working'
+        run: |
+          sudo cp -p ./chrome/chromedriver /usr/bin/
+          chmod -R 777 /usr/bin/chromedriver
+          python ./Spider/main.py

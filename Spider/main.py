@@ -50,7 +50,7 @@ if __name__ == '__main__':
         f1.write("\n#Start")
     while True:
         browser = webdriver.Chrome(executable_path=chromedriver, chrome_options=options)
-        if sum >= 10:
+        if sum >= 40:
             break
         try:
             username = ''.join(random.sample(string.ascii_letters, 10)).lower()

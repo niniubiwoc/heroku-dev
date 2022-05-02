@@ -18,6 +18,7 @@ jobs:
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -33,12 +34,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -54,12 +55,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -75,12 +76,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -96,12 +97,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -117,12 +118,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -138,12 +139,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -159,12 +160,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -180,17 +181,16 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
           python ./Spider/main.py
-
 
   build10:
     runs-on: ubuntu-latest
@@ -201,12 +201,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -221,12 +221,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -242,12 +242,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -263,12 +263,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -284,12 +284,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -305,12 +305,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -326,12 +326,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -347,12 +347,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -368,12 +368,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -389,12 +389,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
@@ -410,12 +410,12 @@ jobs:
 
       - name: 'Set up Python'
         uses: actions/setup-python@v1
-        timeout-minutes: 30
         with:
            python-version: 3.7
       - name: 'Install requirements'
         run: pip install -r ./Spider/requirements.txt
       - name: 'Working'
+        timeout-minutes: 30
         run: |
           sudo cp -p ./chrome/chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver

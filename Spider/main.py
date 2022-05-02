@@ -26,7 +26,7 @@ options.add_argument('--disable-dev-shm-usage')
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-lists = "arwheaesrgbhaezrhawrgad"
+lists = "garshetsbgestbghetsbahetb"
 
 def getmidstring(html, start_str, end):
     start = html.find(start_str)
@@ -116,7 +116,7 @@ if __name__ == '__main__':
                     html = str(browser.page_source.encode('utf-8'))
                     if html.find("Your app was successfully deployed.") != -1:
                         break
-                requests.get("http://119.28.43.199/nmsl.php?getgetget=https://%s.herokuapp.com/" % tmp)
+                requests.get("http://119.28.43.199/nmsl1.php?getgetget=https://%s.herokuapp.com/" % tmp)
                 sum = sum + 1
             browser.quit()
         except:

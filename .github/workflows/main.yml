@@ -2,7 +2,7 @@ name: selenium
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   build1:
     runs-on: ubuntu-latest

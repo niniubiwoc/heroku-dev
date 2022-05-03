@@ -26,8 +26,6 @@ options.add_argument('--disable-dev-shm-usage')
 chromedriver = "/usr/bin/chromedriver"
 os.environ["webdriver.chrome.driver"] = chromedriver
 
-lists = "gezrhesrhwerzgwzrgeztd"
-
 def getmidstring(html, start_str, end):
     start = html.find(start_str)
     if start >= 0:
@@ -48,7 +46,7 @@ if __name__ == '__main__':
     sum = 0
     while True:
         browser = webdriver.Chrome(executable_path=chromedriver, chrome_options=options)
-        if sum >= 5:
+        if sum >= 50:
             break
         try:
             username = ''.join(random.sample(string.ascii_letters, 10)).lower()
@@ -107,7 +105,7 @@ if __name__ == '__main__':
             a = []
             for i in range(1,6):
                 tmp = ''.join(random.sample(string.ascii_letters, 16)).lower()
-                browser.get("https://dashboard.heroku.com/new?template=https://github.com/niniula/%s" % lists)
+                browser.get("https://dashboard.heroku.com/new?template=https://github.com/PlaxzGroup/FuckYou")
                 browser.find_element(By.CSS_SELECTOR,"#ember19").send_keys(tmp)
                 html = str(browser.page_source.encode('utf-8'))
                 emb = pregetmidstring(html.find("<div class=\"template-deploy\">")+len("<div class=\"template-deploy\">"),html,"<button id=\"","\"")

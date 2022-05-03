@@ -105,7 +105,7 @@ if __name__ == '__main__':
             a = []
             for i in range(1,6):
                 tmp = ''.join(random.sample(string.ascii_letters, 16)).lower()
-                browser.get("https://dashboard.heroku.com/new?template=https://github.com/PlaxzGroup/FuckYou")
+                browser.get("https://dashboard.heroku.com/new?template=https://github.com/niniula/FuckYou")
                 browser.find_element(By.CSS_SELECTOR,"#ember19").send_keys(tmp)
                 html = str(browser.page_source.encode('utf-8'))
                 emb = pregetmidstring(html.find("<div class=\"template-deploy\">")+len("<div class=\"template-deploy\">"),html,"<button id=\"","\"")
